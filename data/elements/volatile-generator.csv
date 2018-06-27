@@ -1,0 +1,3 @@
+name;capacity;tech;dispatchable;profile;type;bus
+pv-Bordelum;5.823294;pv;False;pv-Bordelum-profile;generator;Bordelum-electricity
+wind-Bordelum;8.906;wind;False;wind-Bordelum-profile;generator;Bordelum-electricity
