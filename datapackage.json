@@ -1,0 +1,410 @@
+{
+    "resources": [
+        {
+            "name": "excess",
+            "mediatype": "text/csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "encoding": "utf-8",
+            "schema": {
+                "missingValues": [
+                    ""
+                ],
+                "fields": [
+                    {
+                        "name": "name",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "bus",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "type",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "marginal_cost",
+                        "format": "default",
+                        "type": "integer"
+                    }
+                ]
+            },
+            "path": "data/elements/excess.csv"
+        },
+        {
+            "name": "bus",
+            "mediatype": "text/csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "encoding": "utf-8",
+            "schema": {
+                "missingValues": [
+                    ""
+                ],
+                "fields": [
+                    {
+                        "name": "name;type;geometry",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "balanced",
+                        "format": "default",
+                        "type": "string"
+                    }
+                ]
+            },
+            "path": "data/elements/bus.csv"
+        },
+        {
+            "name": "shortage",
+            "mediatype": "text/csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "encoding": "utf-8",
+            "schema": {
+                "missingValues": [
+                    ""
+                ],
+                "fields": [
+                    {
+                        "name": "name",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "bus",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "type",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "capacity",
+                        "format": "default",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "marginal_cost",
+                        "format": "default",
+                        "type": "integer"
+                    }
+                ]
+            },
+            "path": "data/elements/shortage.csv"
+        },
+        {
+            "name": "dispatchable-generator",
+            "mediatype": "text/csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "encoding": "utf-8",
+            "schema": {
+                "missingValues": [
+                    ""
+                ],
+                "fields": [
+                    {
+                        "name": "name",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "capacity",
+                        "format": "default",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "bus",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "marginal_cost",
+                        "format": "default",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "type",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "edge_parameters",
+                        "format": "default",
+                        "type": "object"
+                    }
+                ]
+            },
+            "path": "data/elements/dispatchable-generator.csv"
+        },
+        {
+            "name": "volatile-generator",
+            "mediatype": "text/csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "encoding": "utf-8",
+            "schema": {
+                "missingValues": [
+                    ""
+                ],
+                "fields": [
+                    {
+                        "name": "name",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "capacity",
+                        "format": "default",
+                        "type": "number"
+                    },
+                    {
+                        "name": "tech",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "dispatchable",
+                        "format": "default",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "profile",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "type",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "bus",
+                        "format": "default",
+                        "type": "string"
+                    }
+                ]
+            },
+            "path": "data/elements/volatile-generator.csv"
+        },
+        {
+            "name": "demand",
+            "mediatype": "text/csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "encoding": "utf-8",
+            "schema": {
+                "missingValues": [
+                    ""
+                ],
+                "fields": [
+                    {
+                        "name": "name",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "profile",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "type",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "bus",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "amount",
+                        "format": "default",
+                        "type": "number"
+                    }
+                ]
+            },
+            "path": "data/elements/demand.csv"
+        },
+        {
+            "name": "battery-storage",
+            "mediatype": "text/csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "encoding": "utf-8",
+            "schema": {
+                "missingValues": [
+                    ""
+                ],
+                "fields": [
+                    {
+                        "name": "name",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "capacity",
+                        "format": "default",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "power",
+                        "format": "default",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "bus",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "marginal_cost",
+                        "format": "default",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "type",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "efficiency",
+                        "format": "default",
+                        "type": "number"
+                    },
+                    {
+                        "name": "loss",
+                        "format": "default",
+                        "type": "integer"
+                    }
+                ]
+            },
+            "path": "data/elements/battery-storage.csv"
+        },
+        {
+            "name": "transshipment",
+            "mediatype": "text/csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "encoding": "utf-8",
+            "schema": {
+                "missingValues": [
+                    ""
+                ],
+                "fields": [
+                    {
+                        "name": "name",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "capacity",
+                        "format": "default",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "to_bus",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "type",
+                        "format": "default",
+                        "type": "string"
+                    },
+                    {
+                        "name": "loss",
+                        "format": "default",
+                        "type": "number"
+                    },
+                    {
+                        "name": "from_bus",
+                        "format": "default",
+                        "type": "string"
+                    }
+                ]
+            },
+            "path": "data/elements/transshipment.csv"
+        },
+        {
+            "name": "demand-profiles",
+            "mediatype": "text/csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "encoding": "utf-8",
+            "schema": {
+                "missingValues": [
+                    ""
+                ],
+                "fields": [
+                    {
+                        "name": "timeindex",
+                        "format": "default",
+                        "type": "datetime"
+                    },
+                    {
+                        "name": "demand-Bordelum-profile",
+                        "format": "default",
+                        "type": "number"
+                    }
+                ]
+            },
+            "path": "data/sequences/demand-profiles.csv"
+        },
+        {
+            "name": "generator-profiles",
+            "mediatype": "text/csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "encoding": "utf-8",
+            "schema": {
+                "missingValues": [
+                    ""
+                ],
+                "fields": [
+                    {
+                        "name": "timeindex",
+                        "format": "default",
+                        "type": "datetime"
+                    },
+                    {
+                        "name": "pv-Bordelum-profile",
+                        "format": "default",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "wind-Bordelum-profile",
+                        "format": "default",
+                        "type": "number"
+                    }
+                ]
+            },
+            "path": "data/sequences/generator-profiles.csv"
+        }
+    ],
+    "profile": "tabular-data-package"
+}
