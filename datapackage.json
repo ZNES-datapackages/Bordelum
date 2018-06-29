@@ -46,11 +46,21 @@
                     ""
                 ],
                 "fields": [
-                    {
-                        "name": "name;type;geometry",
-                        "format": "default",
-                        "type": "string"
-                    },
+                  {
+                      "name": "name",
+                      "type": "string",
+                      "format": "default"
+                  },
+                  {
+                      "name": "type",
+                      "type": "string",
+                      "format": "default"
+                  },
+                  {
+                      "name": "geometry",
+                      "type": "string",
+                      "format": "default"
+                  },
                     {
                         "name": "balanced",
                         "format": "default",
@@ -394,7 +404,7 @@
                     {
                         "name": "pv-Bordelum-profile",
                         "format": "default",
-                        "type": "integer"
+                        "type": "number"
                     },
                     {
                         "name": "wind-Bordelum-profile",
