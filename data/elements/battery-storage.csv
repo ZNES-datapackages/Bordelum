@@ -1,2 +1,1 @@
 name;capacity;power;bus;marginal_cost;type;tech;efficiency;loss
-battery-storage-Bordelum;1655670;10733;Bordelum-electricity;0;storage;battery;0.8;0

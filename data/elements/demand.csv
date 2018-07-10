@@ -1,2 +1,13 @@
 name;profile;type;tech;bus;amount
-demand-Bordelum;demand-Bordelum-profile;demand;demand;Bordelum-electricity;973.66807
+demand-Bordelum-G0;demand-BordelumG0-profile;demand;demand;Bordelum-electricity;0
+demand-Bordelum-G1;demand-BordelumG1-profile;demand;demand;Bordelum-electricity;45.1
+demand-Bordelum-G2;demand-BordelumG2-profile;demand;demand;Bordelum-electricity;12
+demand-Bordelum-G3;demand-BordelumG3-profile;demand;demand;Bordelum-electricity;0
+demand-Bordelum-G4;demand-BordelumG4-profile;demand;demand;Bordelum-electricity;15.34
+demand-Bordelum-G5;demand-BordelumG5-profile;demand;demand;Bordelum-electricity;0
+demand-Bordelum-G6;demand-BordelumG5-profile;demand;demand;Bordelum-electricity;0
+demand-Bordelum-L0;demand-BordelumL0-profile;demand;demand;Bordelum-electricity;120
+demand-Bordelum-L1;demand-BordelumL1-profile;demand;demand;Bordelum-electricity;125
+demand-Bordelum-L2;demand-BordelumL2-profile;demand;demand;Bordelum-electricity;0
+demand-Bordelum-SB;demand-BordelumSB-profile;demand;demand;Bordelum-electricity;9.86
+demand-Bordelum-HH;demand-BordelumHH-profile;demand;demand;Bordelum-electricity;986
