@@ -11,3 +11,4 @@ demand-Bordelum-L1;demand-BordelumL1-profile;demand;demand;Bordelum-electricity;
 demand-Bordelum-L2;demand-BordelumL2-profile;demand;demand;Bordelum-electricity;0
 demand-Bordelum-SB;demand-BordelumSB-profile;demand;demand;Bordelum-electricity;9.86
 demand-Bordelum-HH;demand-BordelumHH-profile;demand;demand;Bordelum-electricity;986
+demand-Borderlum-BHKW;demand-BorderlumBHKW-profile;demand;demand;Bordelum-electricity;749.2663952
