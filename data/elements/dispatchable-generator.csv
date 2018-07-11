@@ -1,2 +1,2 @@
 name;capacity;bus;marginal_cost;type;tech;edge_parameters
-biomass-Bordelum;700;Bordelum-electricity;80;generator;biomass;"{""summed_max"": 3500}"
+biomass-Bordelum;750;Bordelum-electricity;80;generator;biomass;"{""summed_max"": 3500}"
