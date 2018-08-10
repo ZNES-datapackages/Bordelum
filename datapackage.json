@@ -419,69 +419,14 @@
                         "format": "default"
                     },
                     {
-                        "name": "demand-BordelumG0-profile",
                         "type": "number",
-                        "format": "default"
+                        "format": "default",
+                        "name": "demand-Bordelum-profile_incl_bhkw"
                     },
                     {
-                        "name": "demand-BordelumG1-profile",
                         "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "demand-BordelumG2-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "demand-BordelumG3-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "demand-BordelumG4-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "demand-BordelumG5-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "demand-BordelumG6-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "demand-BordelumL0-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "demand-BordelumL1-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "demand-BordelumL2-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "demand-BordelumSB-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "demand-BordelumHH-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "demand-BorderlumBHKW-profile",
-                        "type": "number",
-                        "format": "default"
+                        "format": "default",
+                        "name": "demand-Bordelum-profile_without_bhkw"
                     }
                 ],
                 "missingValues": [
