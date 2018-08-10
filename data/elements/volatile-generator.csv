@@ -77,4 +77,4 @@ E20793011000000000000017774160001;32.54;pv;False;pv-Bordelum-profile;generator;B
 E20793011000000000000017788010001;32;pv;False;pv-Bordelum-profile;generator;Bordelum-electricity
 E20793011000000000000021057490001;40.779;pv;False;pv-Bordelum-profile;generator;Bordelum-electricity
 E20793011000000000000021057490002;52.72;pv;False;pv-Bordelum-profile;generator;Bordelum-electricity
-WEA;1000;wind;False;wind-Borderlum;generator;Bordelum-electricity
+WEA;1000;wind;False;wind-Bordelum-profile;generator;Bordelum-electricity
