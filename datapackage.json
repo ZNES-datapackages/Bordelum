@@ -134,69 +134,9 @@
             }
         },
         {
-            "path": "data/elements/dispatchable-generator.csv",
+            "path": "data/elements/volatile_generator.csv",
             "profile": "tabular-data-resource",
-            "name": "dispatchable-generator",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "name",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "capacity",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "bus",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "marginal_cost",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "type",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "tech",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "edge_parameters",
-                        "type": "object",
-                        "format": "default"
-                    }
-                ],
-                "missingValues": [
-                    ""
-                ],
-                "primaryKey": "name",
-                "foreignKeys": [
-                    {
-                        "fields": "bus",
-                        "reference": {
-                            "resource": "bus",
-                            "fields": "name"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "path": "data/elements/volatile-generator.csv",
-            "profile": "tabular-data-resource",
-            "name": "volatile-generator",
+            "name": "volatile_generator",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
@@ -248,7 +188,67 @@
                     {
                         "fields": "profile",
                         "reference": {
-                            "resource": "volatile-generator_profile"
+                            "resource": "volatile_generator_profile"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "path": "data/elements/dispatchable_generator.csv",
+            "profile": "tabular-data-resource",
+            "name": "dispatchable_generator",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "bus",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "marginal_cost",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "tech",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "edge_parameters",
+                        "type": "object",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ],
+                "primaryKey": "name",
+                "foreignKeys": [
+                    {
+                        "fields": "bus",
+                        "reference": {
+                            "resource": "bus",
+                            "fields": "name"
                         }
                     }
                 ]
@@ -478,9 +478,9 @@
             }
         },
         {
-            "path": "data/sequences/generator_profile.csv",
+            "path": "data/sequences/volatile_generator_profile.csv",
             "profile": "tabular-data-resource",
-            "name": "generator_profile",
+            "name": "volatile_generator_profile",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
