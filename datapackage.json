@@ -202,9 +202,9 @@
                     ""
                 ]
             },
-            "name": "edge-parameters-profile",
+            "name": "max",
             "format": "csv",
-            "path": "data/sequences/edge-parameters-profile.csv",
+            "path": "data/sequences/max.csv",
             "mediatype": "text/csv",
             "encoding": "utf-8"
         }

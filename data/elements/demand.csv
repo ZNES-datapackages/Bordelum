@@ -1,2 +1,2 @@
 name;profile;type;tech;bus;amount
-demand-Bordelum-G0;demand-BordelumG0-profile;demand;demand;Bordelum-electricity;500
+demand-Bordelum-G0;demand-BordelumG0-profile;load;demand;Bordelum-electricity;500
