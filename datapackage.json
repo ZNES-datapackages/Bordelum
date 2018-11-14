@@ -37,8 +37,8 @@
                         "format": "default"
                     },
                     {
-                        "name": "edge_parameters",
-                        "type": "object",
+                        "name": "max",
+                        "type": "string",
                         "format": "default"
                     }
                 ],
@@ -51,12 +51,6 @@
                         "reference": {
                             "fields": "name",
                             "resource": "bus"
-                        }
-                    },
-                    {
-                        "fields": "edge_parameters",
-                        "reference": {
-                            "resource": "edge-parameters-profile"
                         }
                     }
 		]
